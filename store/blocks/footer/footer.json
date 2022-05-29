@@ -15,6 +15,7 @@
       "vtex.menu@2.x:menu#footer-clothing",
       "vtex.menu@2.x:menu#footer-decoration",
       "vtex.menu@2.x:menu#footer-bags",
+      "vtex.menu@2.x:menu#footer-favorites",
       "footer-spacer",
       "social-networks"
     ],

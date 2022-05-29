@@ -71,6 +71,11 @@
   font-style: italic;
 }
 
+/* link favorites footer */
+.paragraph--favorites {
+  margin: 0;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

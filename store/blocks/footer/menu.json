@@ -189,6 +189,46 @@
     }
   },
 
+  "vtex.menu@2.x:menu#footer-favorites": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#favorites-title",
+      "link#google",
+      "link#vtex",
+      "link#top"
+    ]
+  },
+  "rich-text#favorites-title": {
+    "props": {
+      "text": "Favoritos",
+      "blockClass": "favorites"
+    }
+  },
+  "link#google": {
+    "props": {
+      "href": "//google.com.br",
+      "target": "_blank",
+      "rel": "noopener",
+      "label": "google"
+    }
+  },
+  "link#vtex": {
+    "props": {
+      "href": "//vtex.com/",
+      "target": "_blank",
+      "rel": "noopener",
+      "label": "vtex"
+    }
+  },
+  "link#top": {
+    "props": {
+      "href": "#top",
+      "label": "Top"
+    }
+  },
+
   "vtex.menu@2.x:menu#footer-clothing": {
     "props": {
       "orientation": "vertical"
