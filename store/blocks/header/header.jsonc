@@ -72,9 +72,24 @@
       "flex-layout.col#spacer",
       "search-bar",
       "locale-switcher",
-      "login",
+      "login#default",
       "minicart.v2"
     ]
+  },
+  "login#default": {
+    "props": {
+      "optionsTitle": "Selecione uma das opções abaixo!",
+      "emailAndPasswordTitle": "Acessar",
+      "accessCodeTitle": "Cadastrar nova senha!",
+      "emailPlaceholder": "E-mail",
+      "passwordPlaceholder": "Senha",
+      "showPasswordVerificationIntoTooltip": true,
+      "iconLabel": "Login",
+      "providerPasswordButtonLabel": "Usar minha conta do site",
+      "invalidIdentifierError": "Usuário ou senha invalidos!",
+      // "logInButtonBehavior": "link",
+      "hasGoogleOneTap": true
+    }
   },
   "flex-layout.col#logo-desktop": {
     "props": {
@@ -107,7 +122,7 @@
       "drawer",
       "logo#mobile",
       "flex-layout.col#spacer",
-      "login",
+      "login#default",
       "minicart.v2"
     ],
     "props": {

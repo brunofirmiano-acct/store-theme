@@ -82,3 +82,8 @@
     transition: none;
   }
 }
+
+/* remove display none for link login in the header mobile */
+:global(.vtex-login-2-x-label) {
+  display: block;
+}
