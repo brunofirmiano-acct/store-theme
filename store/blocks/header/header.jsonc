@@ -108,7 +108,7 @@
       "logo#mobile",
       "flex-layout.col#spacer",
       "login",
-      "minicart.v2"
+      "minicart.v2#mobile"
     ],
     "props": {
       "blockClass": "main-header-mobile",
